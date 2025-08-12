@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codethon event</title>
+    <style>
+    *{
+        
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-style:inherit;
+    }
+     .box {
+      width: 500px;
+      height: 640px;
+      background: rgb(223, 228, 236);
+      border: 2px solid #000;
+      padding: 20px;
+      margin: 20px;
+      position: absolute;
+      left: 500px;
+     border-radius: 5px;
+    }
+    button {
+  background-color: #0a1fda;
+  color: rgb(243, 238, 238);
+  padding: 12px;
+ margin: 5px;
+  border-radius: 5px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <h1 style="display: flex; justify-content: center;">Welcome to Codethon</h1>
+    
+    <form class="box">
+    
+    <div>
+       <label for="name">Name</label>
+       <input type="text" id="name" name="name" />
+    </div> <br>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+    </div> <br>
+    <div>
+        <label for="pw">password</label>
+        <input type="password" id="pw" name="pw" />
+    </div> <br>
+    <div>
+        <label for="dob">D.O.B</label>
+        <input type="date" name="dob" id="dob" />
+    </div> <br>
+    <div>
+        <p>Gender</p>
+        <input type="radio" name="gender" id="1" />
+        <label for="1">Male</label>
+        <input type="radio" id="2" name="gender" />
+        <label for="2">Female</label>
+    </div> <br>
+    <div>
+        <label for="clg">College name</label>
+        <input type="text" id="clg" name="clg" />
+    </div> <br>
+    <div>
+        <p>Participating in:</p>
+        <input type="checkbox" name="cb1" id="cb1 " />
+        <label for="cb1">Paper presentation</label>
+        <input type="checkbox" name="cb2" id="cb2 " />
+        <label for="cb2">Seminar</label>
+        <input type="checkbox" name="cb3" id="cb3 " />
+        <label for="cb3">CodendChai</label>
+       
+    </div><br>
+    <div>
+        <p>Select a place: </p>
+        <select name="from" >
+            <option value="1">B.N.Reddy</option>
+            <option value="2">Santhosh Nagar</option>
+            <option value="3">Ghachibowli</option>
+            <option value="4">secendrabad</option>
+            <option value="5">uppal</option>
+        </select>
+    </div> <br>
+    <div>
+     <label for="sug">Suggestions</label> <br>
+     <textarea style="margin: 3px;"> 
+     </textarea>
+    </div> <br>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
